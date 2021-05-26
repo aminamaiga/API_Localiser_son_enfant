@@ -35,8 +35,8 @@ const Child = mongoose.model('Child', new mongoose.Schema({
 
 function validateChild(child) {
     const schema = Joi.object({
-        firstname: Joi.string().min(5).max(50).required(),
-        lastname: Joi.string().min(5).max(50).required(),
+        firstname: Joi.string().min(2).max(50).required(),
+        lastname: Joi.string().min(2).max(50).required(),
         code: Joi.number().required(),
         birthdate: Joi.date(),
         picture: Joi.string().min(0).allow('').allow(null),

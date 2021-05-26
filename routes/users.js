@@ -50,7 +50,8 @@ router.post('/signin', async (req, res) => {
     User.findOne({ email: req.body.email }).then(
         (user) => {
             console.log(req.body);
-            if (!user) {
+            console.log(user)
+            if (user == null) {
                 return res.status(401).json({
                     error: new Error('Compte n\'existe pas!')
                 });

@@ -1,17 +1,23 @@
 version: '3'
 services:
   node:
+    container_name: node_container
     restart: always
     build: .
     ports:
       - 8081:8081
     volumes:
       - ./:/code
+      - "/etc/localtime:/etc/localtime:ro"
+      - "/etc/timezone:/etc/timezone:ro"
   mongo:
     image: mongo
+    container_name: mongo_container
     ports:
       - 27017:27017
     volumes:
       - mongodb:/data/db
+      - "/etc/localtime:/etc/localtime:ro"
+      - "/etc/timezone:/etc/timezone:ro"
 volumes:
  mongodb:

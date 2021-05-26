@@ -3,7 +3,10 @@ const mongoose = require('mongoose');
 const users = require('./routes/users');
 const childs = require('./routes/childs');
 const trajets = require('./routes/trajets');
+const zones = require('./routes/zones');
+const tokens = require('./routes/tokens');
 const app = express();
+app.use(express.static("public"));
 
 app.use(express.json());
 app.use(express.urlencoded({
@@ -31,6 +34,10 @@ app.use('/api/users', users);
 app.use('/api/childs', childs);
 
 app.use('/api/trajets', trajets);
+
+app.use('/api/zones', zones);
+
+app.use('/api/tokens', tokens);
 
 const port = 8081;
 

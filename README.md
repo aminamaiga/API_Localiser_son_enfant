@@ -20,6 +20,14 @@
   <img src="https://github.com/aminamaiga/Grail/blob/main/img.PNG" width="350" alt="accessibility text">
 </p>
 <p align="center">
-  <img src="https://github.com/aminamaiga/Grail/blob/main/enfantconde.PNG" width="350" title="Diagramme">
-  <img src="https://github.com/aminamaiga/Grail/blob/main/img.PNG" width="350" alt="accessibility text">
+  <img src="https://github.com/aminamaiga/Grail/blob/main/ins.PNG" width="350" title="Diagramme">
+  <img src="https://github.com/aminamaiga/Grail/blob/main/liste%20des%20zone.PNG" width="350" alt="accessibility text">
+</p>
+<p align="center">
+  <img src="https://github.com/aminamaiga/Grail/blob/main/localisation.PNG" width="350" title="Diagramme">
+  <img src="https://github.com/aminamaiga/Grail/blob/main/parametrage.PNG" width="350" alt="accessibility text">
+</p>
+<p align="center">
+  <img src="https://github.com/aminamaiga/Grail/blob/main/zon.PNG" width="350" title="Diagramme">
+  <img src="https://github.com/aminamaiga/Grail/blob/main/zone.PNG" width="350" alt="accessibility text">
 </p>
